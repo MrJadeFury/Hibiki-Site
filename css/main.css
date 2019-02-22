@@ -1,3 +1,62 @@
 html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
     font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: darkblue;
+    margin: 0;
+    padding: 0;
+}
+/* General */
+.conatiner{
+    padding: 0;
+    margin: 0;
+}
+
+/* Sub Images */
+.sub-image, .top-image{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.sub-image-1{
+    background-image: url('imgs/hibiki3.jpeg');
+    min-height: 100%;
+}
+
+.sub-image-2{
+    background-image: url('imgs/hibiki6.jpg');
+    min-height: 100%;
+}
+
+.sub-image-3{
+    background-image: url('imgs/hibiki1.jpg');
+    min-height: 100%;
+}
+
+.sub-image-4{
+    background-image: url('imgs/hibiki2.jpg');
+    min-height: 100%;
+}
+
+/* Sections */
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: lightskyblue;
+    color: darkblue;
+}
+
+.section-dark{
+    background-color: darkslateblue;
+    color: lightseagreen;
 }
